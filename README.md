@@ -23,7 +23,6 @@ Double-click `DeepSeek Harness.app` → it automatically ensures the backend ser
 - **Splash screen with live loading feedback** — a native overlay (black background + radial glow + DeepSeek logo + tagline) covers the white-screen boot. Below the logo it shows the **current stage** (`installing plugin…` / `starting server…` / `loading UI…`) and an **animated progress bar in `#4176E5`** — the long first-time install is no longer a silent wait.
 - **Bottom loading bar** — if the page is still loading after the splash fades, a thin `#4176E5` progress line appears at the bottom of the window (also visible on ⌘R reload).
 - **Built-in default plugin** — auto-installs `dsh-better-sidebar` on first launch (optional, never blocks startup on failure).
-- **Frosted-glass sidebar** — translucent sidebar with content shifted below the traffic lights.
 - **Fully configurable via environment variables** — port, URL, start command, timeout, plugin name/version (see below).
 
 ## Requirements
