@@ -12,6 +12,10 @@ Double-click `DeepSeek Harness.app` → it automatically ensures the backend ser
 
 ---
 
+<img width="144" height="140" alt="ScreenShot_2026-08-14_171924_766" src="https://github.com/user-attachments/assets/70e94fbe-9ca6-4677-a9da-e57808fd4473" />
+<img width="4606" height="2592" alt="iShot_2026-08-14_17 34 18 2026-08-14 17_42_49" src="https://github.com/user-attachments/assets/7425e2ff-afb4-4840-a1b2-5e1beeec45ee" />
+
+
 ## Features
 
 - **One-click startup** — probes the port first; if the service is down it spawns `npx -y @deepseek-ai/dsh web` in the background and polls until the UI is ready (timeout configurable).
